@@ -354,13 +354,11 @@ a{
         padding: 0.3rem ;
         border-radius: 0.6rem;
         margin: 7rem 0;
-        box-shadow:-webkit-box-shadow: 7px 5px 8px -1px #000000; 
-        box-shadow: 7px 5px 8px -1px #000000; 
+        box-shadow: 7px 5px 8px -1px ;
         transition: var(--mainTransition);
     }
     .service-card:hover{
         transition: var(--mainTransition);
-        box-shadow:-webkit-box-shadow: 10px 9px 15px 8px #000000; 
         box-shadow: 10px 9px 15px 8px #000000; 
     }
     .service-img{
@@ -412,9 +410,7 @@ a{
         border: 5px solid var(--primaryColor);
         color: rgba(84, 79, 79, 0.768);
         transform: translate(-50%,50%);
-        box-shadow: box-shadow: 12px 13px 5px 0px rgba(0,0,0,0.62);
-        -webkit-box-shadow: 12px 13px 5px 0px rgba(0,0,0,0.62);
-        -moz-box-shadow: 12px 13px 5px 0px rgba(0,0,0,0.62);
+        box-shadow: 12px 13px 5px 0px rgba(0,0,0,0.62);
     }
     /* End of Services */
 
